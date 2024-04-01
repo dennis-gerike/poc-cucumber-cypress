@@ -1,0 +1,18 @@
+{
+  "author": "Dennis Gerike",
+  "name": "poc-cucumber-cypress",
+  "repository": "https://github.com/dennis-gerike/poc-cucumber-cypress",
+  "license": "MIT",
+  "scripts": {
+    "open-cypress-tests-in-gui": "npx cypress open",
+    "run-cypress-tests-in-terminal": "npx cypress run --headed",
+    "run-cypress-tests-in-terminal-headless": "npx cypress run",
+    "test": "npm run run-cypress-tests-in-terminal"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "20.0.2",
+    "@bahmutov/cypress-esbuild-preprocessor": "2.2.0",
+    "cypress": "13.7.1",
+    "typescript": "5.4.3"
+  }
+}
